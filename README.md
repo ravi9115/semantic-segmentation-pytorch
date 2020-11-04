@@ -7,7 +7,7 @@ https://github.com/CSAILVision/sceneparsing
 
 If you simply want to play with our demo, please try this link: http://scenesegmentation.csail.mit.edu You can upload your own photo and parse it!
 
-[You can also use this colab notebook playground here](https://colab.research.google.com/github/CSAILVision/semantic-segmentation-pytorch/blob/master/notebooks/DemoSegmenter.ipynb) to tinker with the code for segmenting an image.
+[You can also use this colab notebook playground here](https://colab.research.google.com/github/ravi9115/semantic-segmentation-pytorch/blob/testing/notebooks/DemoSegmenter.ipynb) to tinker with the code for segmenting an image.
 
 All pretrained models can be found at:
 http://sceneparsing.csail.mit.edu/model/pytorch
@@ -233,7 +233,7 @@ python3 eval_multipro.py --gpus GPUS --cfg config/ade20k-resnet101-upernet.yaml
 ## Integration with other projects
 This library can be installed via `pip` to easily integrate with another codebase
 ```bash
-pip install git+https://github.com/CSAILVision/semantic-segmentation-pytorch.git@master
+pip install git+https://github.com/ravi9115/semantic-segmentation-pytorch.git@testing
 ```
 
 Now this library can easily be consumed programmatically. For example

@@ -6,7 +6,7 @@ semantic segmentation network from the the ADE20K MIT Scene Parsing
 Benchchmark.
 
 It can be run on Colab at
-[this URL](https://colab.research.google.com/github/CSAILVision/semantic-segmentation-pytorch/blob/master/notebooks/DemoSegmenter.ipynb)
+[this URL](https://colab.research.google.com/github/ravi9115/semantic-segmentation-pytorch/blob/testing/notebooks/DemoSegmenter.ipynb)
 or on a local Jupyter notebook.
 
 If running locally, run the script `setup_notebooks.sh` to start.

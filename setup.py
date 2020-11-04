@@ -10,7 +10,7 @@ setuptools.setup(
     description='Pytorch implementation for Semantic Segmentation/Scene Parsing on MIT ADE20K dataset',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/CSAILVision/semantic-segmentation-pytorch',
+    url='https://github.com/ravi9115/semantic-segmentation-pytorch',
     packages=setuptools.find_packages(),
     classifiers=(
         'Programming Language :: Python :: 3',
