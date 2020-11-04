@@ -2,7 +2,7 @@
 
 # Image and model names
 TEST_IMG=ADE_val_00001066.jpg
-MODEL_NAME=ade20k-resnet50dilated-ppm_deepsup
+MODEL_NAME=ade20k-hrnetv2
 MODEL_PATH=ckpt/$MODEL_NAME
 RESULT_PATH=./
 
@@ -29,7 +29,7 @@ then
 # Inference
 python3 -u test.py \
   --imgs $TEST_IMG \
-  --cfg config/ade20k-resnet50dilated-ppm_deepsup.yaml \
+  --cfg config/ade20k-hrnetv2.yaml \
   DIR $MODEL_PATH \
   TEST.result ./ \
   TEST.checkpoint epoch_20.pth
